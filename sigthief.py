@@ -96,7 +96,6 @@ def gather_file_info_win(binary):
         flItms['CertTableLOC'] = binary.tell()
         flItms['CertLOC'] = struct.unpack("<I", binary.read(4))[0]
         flItms['CertSize'] = struct.unpack("<I", binary.read(4))[0]
-        print(hex(flItms['CertTableLOC']))
         binary.close()
         return flItms
 
