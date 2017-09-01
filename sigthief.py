@@ -7,7 +7,7 @@ import struct
 import shutil
 import io
 from optparse import OptionParser
-flItms = {}
+
 
 def gather_file_info_win(binary):
         """
@@ -101,6 +101,7 @@ def gather_file_info_win(binary):
         binary.close()
         return flItms
 
+
 def copyCert(exe):
     flItms = gather_file_info_win(exe)
 
@@ -113,6 +114,7 @@ def copyCert(exe):
         f.seek(flItms['CertLOC'], 0)
         cert = f.read(flItms['CertSize'])
     return cert
+
 
 def writeCert(cert, exe, output):
     flItms = gather_file_info_win(exe)
@@ -147,7 +149,8 @@ def outputCert(exe, output):
     open(output, 'wb').write(cert)
 
     print("Signature ripped. \nFIN.")
-   
+
+
 def check_sig(exe):
     flItms = gather_file_info_win(exe)
  
@@ -207,6 +210,7 @@ def signfile(exe, sigfile, output):
             f.seek(0, io.SEEK_END)
             f.write(cert)
     print("Signature appended. \nFIN.")
+
 
 if __name__ == "__main__":
     usage = 'usage: %prog [options]'
