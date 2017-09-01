@@ -1,6 +1,8 @@
 # SigThief
 Stealing Signatures and Making One Invalid Signature at a Time
 
+## For security professionals only...
+
 ## What is this?
 
 I've noticed during testing against Anti-Virus over the years that each is different and each prioritize PE signatures differently, whether the signature is valid or not. There are some Anti-Virus vendors that give priority to certain certificate authorities without checking that the signature is actually valid, and there are those that just check to see that the certTable is populated with some value. It's a mess.
