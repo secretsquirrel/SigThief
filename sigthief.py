@@ -12,7 +12,7 @@ from optparse import OptionParser
 def gather_file_info_win(binary):
         """
         Borrowed from BDF...
-        I could just skip to certLOC by *shrug*
+        I could just skip to certLOC... *shrug*
         """
         flItms = {}
         binary = open(binary, 'rb')
