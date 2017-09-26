@@ -1,8 +1,9 @@
 # SigThief
-Stealing Signatures and Making One Invalid Signature at a Time (Unless you read this: 
+Stealing Signatures and Making One Invalid Signature at a Time (Unless you read this:
 https://specterops.io/assets/resources/SpecterOps_Subverting_Trust_in_Windows.pdf)
 
-![wooo](https://i.imgur.com/T05kwwn.png)
+https://twitter.com/subTee/status/912769644473098240
+![alt text](https://i.imgur.com/T05kwwn.png "https://twitter.com/subTee/status/912769644473098240")
 
 ## For security professionals only...
 
