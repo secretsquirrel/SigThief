@@ -216,7 +216,7 @@ if __name__ == "__main__":
     usage = 'usage: %prog [options]'
     parser = OptionParser()
     parser.add_option("-i", "--file", dest="inputfile", 
-                  help="file still signature from", metavar="FILE")
+                  help="input file", metavar="FILE")
     parser.add_option('-r', '--rip', dest='ripsig', action='store_true',
                   help='rip signature off inputfile')
     parser.add_option('-a', '--add', dest='addsig', action='store_true',
@@ -226,7 +226,7 @@ if __name__ == "__main__":
     parser.add_option('-s', '--sig', dest='sigfile',
                   help='binary signature from disk')
     parser.add_option('-t', '--target', dest='targetfile',
-                  help='file to append signature too')
+                  help='file to append signature to')
     parser.add_option('-c', '--checksig', dest='checksig', action='store_true',
                   help='file to check if signed; does not verify signature')
     parser.add_option('-T', '--truncate', dest="truncate", action='store_true',
