@@ -28,7 +28,7 @@ Usage: sigthief.py [options]
 
 Options:
   -h, --help            show this help message and exit
-  -i FILE, --file=FILE  file still signature from
+  -i FILE, --file=FILE  input file
   -r, --rip             rip signature off inputfile
   -a, --add             add signautre to targetfile
   -o OUTPUTFILE, --output=OUTPUTFILE
