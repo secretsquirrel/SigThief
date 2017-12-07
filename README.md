@@ -1,4 +1,10 @@
 # SigThief
+
+Donate BTC: 16GfwSnSA7s5BtBfsPBdU59H4F6veq5uqk
+
+Donate ETH: 0x7cCeC48F9F1470d663d4862784a03bee2d91834A 
+
+---
 Stealing Signatures and Making One Invalid Signature at a Time (Unless you read this:
 https://specterops.io/assets/resources/SpecterOps_Subverting_Trust_in_Windows.pdf)
 
