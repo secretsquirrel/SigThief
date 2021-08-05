@@ -1,5 +1,9 @@
 # SigThief
 
+New version available to Dev-tier sponsors: https://github.com/sponsors/secretsquirrel
+
+Stable tier will have it End of Month August 2021
+
 ---
 Stealing Signatures and Making One Invalid Signature at a Time (Unless you read this:
 https://specterops.io/assets/resources/SpecterOps_Subverting_Trust_in_Windows.pdf)
