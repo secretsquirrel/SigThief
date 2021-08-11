@@ -214,7 +214,7 @@ def signfile(exe, sigfile, output):
 
 if __name__ == "__main__":
     usage = 'usage: %prog [options]'
-    print("\n!! New Version available now for Dev Tier Sponsors! Sponsor here: https://github.com/sponsors/secretsquirrel\n\n")
+    print("\n\n!! New Version available now for Dev Tier Sponsors! Sponsor here: https://github.com/sponsors/secretsquirrel\n\n")
     parser = OptionParser()
     parser.add_option("-i", "--file", dest="inputfile", 
                   help="input file", metavar="FILE")
